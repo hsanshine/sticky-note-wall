@@ -102,13 +102,15 @@ const NoteBoard = () => {
 
   //handler functions
   const onChangeColorHandler = (id, newColor) => {
-    const newState = noteData.map((singleNoteData) => {
-      if (singleNoteData.id === id)
-        return { ...singleNoteData, color: newColor, sth: "i have changed" };
-      else return { ...singleNoteData, now: "sth here" };
+    setNoteData((prevStateArray) => {
+      let tempStateArray = [...prevStateArray];
+      let newStateArray = tempStateArray.map((singleNoteData) => {
+        if (singleNoteData.id === id) {
+          return { ...singleNoteData, color: newColor };
+        } else return { ...singleNoteData };
+      });
+      return newStateArray;
     });
-
-    setNoteData(newState);
   };
   return (
     <div className="note-board">

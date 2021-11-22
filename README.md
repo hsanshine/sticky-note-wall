@@ -2,10 +2,6 @@
 
 Personal project to deal with my habit of sticking notes to walls. Its better to stick them in the browser.
 
-
-
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
