@@ -107,7 +107,7 @@ const NoteBoard = () => {
         return { ...singleNoteData, color: newColor, sth: "i have changed" };
       else return { ...singleNoteData, now: "sth here" };
     });
-    git;
+
     setNoteData(newState);
   };
   return (
