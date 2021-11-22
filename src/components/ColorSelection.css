@@ -1,0 +1,29 @@
+.note__color-selection {
+  margin: auto 0;
+}
+.note__color-selection input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+
+  position: relative;
+}
+.note__color-selection input:checked {
+  border: 2px solid var(--radio-selected-color);
+}
+.note__color-selection input[value="leaf-color"] {
+  background: var(--green-bg);
+}
+.note__color-selection input[value="banana-color"] {
+  background: var(--brown-bg);
+}
+.note__color-selection input[value="sky-color"] {
+  background: var(--blue-bg);
+}

@@ -1,0 +1,21 @@
+.note-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.5rem;
+  margin: 2rem;
+  background-color: #6b686a;
+  justify-content: space-around;
+  border-radius: 1rem;
+}
+.note-list-header {
+  display: flex;
+  padding: auto;
+  margin: 4rem 2rem;
+  background-color: #6b686a;
+  justify-content: flex-start;
+  border-radius: 1rem;
+  /* overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 10%; */
+}

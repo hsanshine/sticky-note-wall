@@ -1,0 +1,14 @@
+.note__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.note__title {
+  box-sizing: border-box;
+}
+
+.note__created-text {
+  margin-top: 0;
+  padding-bottom: 2px;
+}

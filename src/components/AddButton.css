@@ -1,0 +1,17 @@
+.add-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plus-sign {
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
+  background-color: green;
+  border-radius: 10%;
+  width: 100%;
+}
+.add-btn-case {
+  margin: 1rem auto;
+  min-width: 10%;
+}

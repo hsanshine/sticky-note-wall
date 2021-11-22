@@ -1,0 +1,19 @@
+.note__text-area {
+  width: 100%;
+
+  resize: none;
+  border: 2px solid white;
+  color: white;
+  font-size: 1rem;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  line-height: 1.6rem;
+  overflow: auto;
+  background: inherit;
+  height: 100%;
+  width: 100%;
+}
+.note__test-div {
+  height: 400px;
+  box-sizing: border-box;
+}

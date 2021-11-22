@@ -1,0 +1,27 @@
+.note {
+  color: white;
+  width: 400px;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  --green-bg: #3f6108;
+  --brown-bg: #615108;
+  --blue-bg: #084561;
+  --radio-selected-color: rgb(255, 1, 199);
+}
+
+.note__body {
+  padding: 2px;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+.leaf-color {
+  background-color: var(--green-bg);
+}
+.banana-color {
+  background-color: var(--brown-bg);
+}
+.sky-color {
+  background-color: var(--blue-bg);
+}
